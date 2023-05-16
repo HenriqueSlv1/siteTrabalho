@@ -1,0 +1,66 @@
+.container{
+    background-image: url(./imgTrabalho.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 700px;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.container p{
+    text-align: justify;
+}
+
+
+
+body{
+    font-family: "Open sans", sans-serif;
+    padding: 0;
+    margin: 0;
+}
+
+.principal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background: rgb(34, 33, 33);
+    color: white;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.principal li:hover{
+    color: #c0392b;
+    font-weight: bold;
+    transition: all 0.20s ease-in-out;
+}
+
+li{
+    list-style: none;
+    display: inline-block;
+    padding: 20px;
+}
+
+section p{
+    color: #555;
+    margin: 20px;
+    line-height: 30px;
+    padding: 0;
+    letter-spacing: 1.2px;
+    padding: 10px;
+}
+
+section h2{
+    font-size: 150%;
+    margin: 20px;
+}
+
+.conteudo{
+    margin-top: 0;
+}
